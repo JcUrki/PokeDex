@@ -1,0 +1,53 @@
+body {
+    background: rgb(197,186,231);
+    background: linear-gradient(90deg, rgba(197,186,231,1) 0%, rgba(174,242,236,1) 100%);
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    background: -webkit-linear-gradient(rgb(31, 110, 146), rgb(146, 152, 233));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.pokemon-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pokemon-card {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    margin: 10px;
+    width: 150px;
+    align-items: center;
+    border-radius: 15%;
+    padding: 10px;
+}
+
+img {
+    width: 120px;
+    background-image: url("blob.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.name {
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
+    background-color:rgb(127, 187, 214);
+    padding: 5px;
+    border-radius: 25%;
+}
